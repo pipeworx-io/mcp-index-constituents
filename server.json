@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/index-constituents",
   "title": "Index Constituents",
   "description": "Index constituents and holdings, point-in-time.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/index-constituents",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-index-constituents",

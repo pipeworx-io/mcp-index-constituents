@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-index-constituents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Index constituents and holdings, point-in-time.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2b0750e87383b9ef2e7ac0a3f5c5fa13e8517bdf7d8739bb019932b03447f7fe",
-    "sourceCommit": "c1590c25b5e94f477a53686cb61bd09cc196c1ee"
+    "sourceHash": "v1-b184968a5b24dbe3052c8c539d0048ea4a665c44cfe72282d2261f03759ce15f",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
