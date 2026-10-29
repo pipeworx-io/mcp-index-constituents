@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-index-constituents",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Index constituents and holdings, point-in-time.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-index-constituents": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "index-constituents"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-index-constituents.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/index-constituents",
   "pipeworx": {
-    "sourceHash": "v1-b184968a5b24dbe3052c8c539d0048ea4a665c44cfe72282d2261f03759ce15f",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "index-constituents",
+    "gatewaySlug": "index-constituents",
+    "sourceHash": "v1-2afb5477fd6d95659243b8be9c2b7e2f4240efb277f0af5abba8e485094d5cc3",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
