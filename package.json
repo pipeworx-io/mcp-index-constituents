@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-index-constituents",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Index constituents and holdings, point-in-time.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "index-constituents",
     "gatewaySlug": "index-constituents",
-    "sourceHash": "v1-2afb5477fd6d95659243b8be9c2b7e2f4240efb277f0af5abba8e485094d5cc3",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-c9d1bc502268791bc07d7a204c3b2bb88ed77cf337e46519c5de75bb7f678805",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
